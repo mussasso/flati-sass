@@ -1,0 +1,53 @@
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  nav .logo {
+    width: 100%;
+    height: auto;
+  }
+  nav .nav-left {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+  }
+  nav .nav-left ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav .nav-left ul li {
+    padding: 3%;
+  }
+
+  .sec-2 {
+    flex-direction: column;
+  }
+  .sec-2 #cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .sec-3 {
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-3 .txte-2 {
+    text-align: justify;
+    width: 100%;
+    height: auto;
+  }
+  .sec-3 .image {
+    flex-direction: column;
+    width: 80%;
+    gap: 1rem;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

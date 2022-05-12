@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-color: #363B47;
+}
+nav .logo {
+  text-transform: uppercase;
+  color: white;
+  font-family: RooneySans-Regular, "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 40px 300px;
+  width: 40%;
+}
+nav .nav-left {
+  width: 60%;
+  justify-content: flex-start;
+  display: flex;
+}
+nav .nav-left ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+nav .nav-left ul li {
+  list-style-type: none;
+}
+nav .nav-left ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0 1vw;
+  font-family: RooneySans-Regular, "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+nav .nav-left ul li #home {
+  background-color: bleu;
+}
+
+#img-1 {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+}
+
+.sec-1 {
+  background-color: #E8E6E0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex-direction: column;
+}
+.sec-1 .text-1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #7A8498;
+  padding: 10vh 20vw;
+  font-family: RooneySans-Regular, "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+.sec-1 .text-1 #sp1 {
+  color: #26A2CC;
+  font-size: 25px;
+}
+.sec-1 .text-1 #sp2 {
+  color: #69747F;
+  font-size: 25px;
+}
+
+.sec-2 {
+  background-color: #EFEFF1;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  gap: 1%;
+  font-family: RooneySans-Regular, "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+.sec-2 .card {
+  padding: 4vw;
+  margin: 2vw;
+  background-color: #E2E0E0;
+  width: 20%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.sec-2 .card i {
+  color: #3676BB;
+  background-color: #EFEDED;
+  border-radius: 40%;
+  width: 25%;
+  height: 100%;
+  font-size: 40px;
+}
+.sec-2 .card .p1 {
+  color: #5C5C5C;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  overflow: hidden;
+}
+.sec-2 .card .p2 {
+  color: #26B0D5;
+  overflow: hidden;
+}
+.sec-2 .card .p3 {
+  text-align: justify;
+  overflow: hidden;
+}
+
+.sec-3 {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: auto;
+  text-align: center;
+  font-family: RooneySans-Regular, "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+.sec-3 .txte-2 {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding: 3%;
+  color: #7A7A7A;
+  overflow: hidden;
+}
+.sec-3 .txte-2 button {
+  background-color: #26A2CC;
+  padding: 4%;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFF7;
+  margin: 5% 0;
+}
+.sec-3 .image {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1%;
+  padding: 0.5%;
+}
+.sec-3 .image .card-btm {
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: #49485F;
+  border-radius: 10px;
+}
+.sec-3 .image .card-btm img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  justify-content: left;
+}
+.sec-3 .image .card-btm h2 {
+  color: #D1D3D8;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.sec-3 .image .card-btm p {
+  text-align: start;
+  overflow: hidden;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: RooneySans-Regular, "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+footer .ftr-1 {
+  width: 100%;
+  height: auto;
+  background-color: #3676BB;
+  align-content: center;
+  padding: 2% 0;
+  color: #B0C5DC;
+}
+footer .ftr-1 h2 {
+  text-transform: uppercase;
+}
+footer .ftr-1 div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+footer .ftr-1 div i {
+  width: 5%;
+  padding: 3%;
+  font-size: 4vw;
+  color: #5E91C9;
+}
+footer .ftr-2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #363B47;
+  color: #6A6C72;
+  padding: 2% 0;
+}
+
+/*# sourceMappingURL=css.style.css.map */
