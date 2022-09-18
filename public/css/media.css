@@ -14,11 +14,12 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 0;
   }
   nav .nav-left ul {
-    flex-direction: column;
+    margin-left: 40px;
+    flex-direction: row;
     align-items: center;
+    
   }
   nav .nav-left ul li {
     padding: 3%;
@@ -26,6 +27,7 @@
 
   .sec-2 {
     flex-direction: column;
+    padding: 2em;
   }
   .sec-2 #cards {
     flex-direction: column;
